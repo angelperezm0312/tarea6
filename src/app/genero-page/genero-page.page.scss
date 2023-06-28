@@ -1,0 +1,38 @@
+.box {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 200px;  
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 25px;
+    border: solid black 1px;
+
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.male {
+    background-color: cyan;
+    color: blue;
+}
+
+.female {
+    background-color: lightpink;
+    color: fuchsia;
+}
+
+.error {
+    background-color: #E74C3C;
+    color: yellow;
+    font-size: 1em!important;
+}
+
+.unknown {
+    background-color: lightgray;
+    color: black;
+    font-size: 1em!important;
+}

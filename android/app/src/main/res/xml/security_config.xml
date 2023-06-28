@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+  <base-config cleartextTrafficPermitted="true">
+    <trust-anchors>
+      <certificates src="system" />
+    </trust-anchors>
+  </base-config>
+  <domain-config>
+    <domain includeSubdomains="true">54.236.250.67</domain>
+    <trust-anchors>
+      <certificates src="system"
+        tools:ignore="NetworkSecurityConfig" />
+    </trust-anchors>
+  </domain-config>
+</network-security-config>
